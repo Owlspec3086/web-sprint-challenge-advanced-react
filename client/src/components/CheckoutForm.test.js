@@ -44,7 +44,7 @@ console.log(firstNameInput)
 
   // // assert that my new Person is in the list
   // //1.query for the new Person text
-  // const newPerson = screen.getByText(/lion/i);
+  // const newPerson = screen.getByText(/JonDoe/i);
   // // 2. assert that it is being rendered
   // expect(newPerson).toBeInTheDocument();
 });
