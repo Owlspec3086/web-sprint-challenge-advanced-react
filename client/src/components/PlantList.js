@@ -20,15 +20,14 @@ export default class PlantList extends Component {
     .then(res => {
       //res.data
       //   - set the returned plants array to this.state.plants
-      this.setState({
-        plants: [...res.data.plants, res.data.plantsData]
-      });
-      console.log(this.state.plants)
+      this.setState({plants: res.data.plantsData});
+      console.log(res.data)
     })
     .catch(err => {
       console.log(err)
     })
   }
+
 
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
